@@ -2,7 +2,7 @@ from tonutils.client import TonapiClient
 from tonutils.wallet import WalletV4R2
 
 # API key for accessing the Tonapi (obtainable from https://tonconsole.com)
-API_KEY = "AEMMNEEIGQK4DBAAAAAM4SCIGFCCA22HBRSBW2OVV5VCVZUZQOPE7ME4FYXBT57ZZULGYQY"
+API_KEY = ""
 
 # Set to True for test network, False for main network
 IS_TESTNET = True

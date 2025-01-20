@@ -90,7 +90,7 @@ async def menu_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         InlineKeyboardButton("🌟Add", callback_data=str(Add)),
         InlineKeyboardButton("🗃️Edit", callback_data=str(Remove)),
     ],[ 
-        InlineKeyboardButton("🛠Settings", callback_data=str(Settings)),
+        InlineKeyboardButton("🛠Settings", callback_data=str(Settings)), 
         InlineKeyboardButton("💎Upgrade", callback_data=str(Upgrade))
     ],]
 

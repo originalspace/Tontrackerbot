@@ -22,9 +22,9 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 
 logger = logging.getLogger(__name__)
 
-TOKEN: typing.Final = '7123364221:AAHikC7MG1Fk47S0J7dXMJWFiTYxVQOHo_M'
-BOT_USERNAME: typing.Final = '@Ton_Dium_Tracker_Bot'
-BOT_ID: typing.Final = '7123364221'
+TOKEN: typing.Final = ''
+BOT_USERNAME: typing.Final = ''
+BOT_ID: typing.Final = ''
 
 wallet = []
 

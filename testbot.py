@@ -30,9 +30,9 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 
-TOKEN: typing.Final = '6885130830:AAGySaJVYv8T18mjLNPMmdOFGfV0EqF8arc'
-TEXT_CHAT_ID: typing.Final = "-1002197178477"
-API_KEY: typing.Final = 'AEMMNEEIGQK4DBAAAAAM4SCIGFCCA22HBRSBW2OVV5VCVZUZQOPE7ME4FYXBT57ZZULGYQY'
+TOKEN: typing.Final = ''
+TEXT_CHAT_ID: typing.Final = ""
+API_KEY: typing.Final = ''
 CLIENT = TonCenterClient()
 CLIENT2 = TonApiClient()
 TON_USD_PRICE_URL = "https://tonapi.io/v2/rates?tokens=ton&currencies=usd"

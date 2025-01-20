@@ -11,7 +11,7 @@ async def subscribe():
 
         payload = {
             "method": "subscribeAccountTrade",
-            "keys": ["4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"]
+            "keys": [""]
         }
         await websocket.send(json.dumps(payload))
         
