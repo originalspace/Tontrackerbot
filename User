@@ -1,0 +1,7 @@
+
+
+Welcome = "Hello, Majid"
+print(Welcome)
+
+Question = input("What is your weapon of choice? ")
+print(Question)
