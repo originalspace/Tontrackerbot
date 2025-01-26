@@ -1,7 +1,7 @@
 """import requests
 import json
 
-url = "https://api.telegram.org/bot7123364221:AAHikC7MG1Fk47S0J7dXMJWFiTYxVQOHo_M/getUpdates"
+url = "https://api.telegram.org/<TOKEN>/getUpdates"
 response = requests.get(url)
 data = json.loads(response.text)
 chat_id = data["result"][0]["message"]["chat"]["id"]
@@ -15,8 +15,8 @@ print(token)"""
 "RAKmVgrywOM"
 
 telegram_url = 'https://www.telegram.org'
-bot_name = 'Ton_Dium_Tracker_Bot'
-token = "RAKmVgrywOM"
+bot_name = ''
+token = ""
 url = f'{telegram_url}/{bot_name}?start={token}'
 print(url)"""
 

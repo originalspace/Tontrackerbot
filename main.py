@@ -60,7 +60,7 @@ TON_USD_PRICE = data['rates']['TON']['prices']['USD']
 
 # fetches user chat id from telegem api
 while True:
-    get_update_url = "https://api.telegram.org/bot7123364221:AAHikC7MG1Fk47S0J7dXMJWFiTYxVQOHo_M/getUpdates"
+    get_update_url = "https://api.telegram.org/" + TOKEN + "/getUpdates"
     response = requests.get(get_update_url)
     data = json.loads(response.text)
     print(data)
